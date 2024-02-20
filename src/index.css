@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #192a56;
+}
+.todo-area {
+  width: 100%;
+  height: 60vh;
+}
+.todo-components {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  align-items: center;
+  text-align: center;
+}
+
+.todo-items img {
+  height: 7rem;
+}
+
+.todo-items .title {
+  font-size: 1.5rem;
+  font-family: serif;
+  color: white;
+  margin: 1rem 0;
+}
+.items_add_bar {
+  position: relative;
+}
+.input_search_bar input {
+  width: 20rem;
+  outline: none;
+  height: 3rem;
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+}
+.toggole_btn {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  cursor: pointer;
+}
+.toggole_btn:hover {
+  color: #15d415;
+  transition: 0.2s linear;
+}
+.show-items {
+  margin: 0 2rem;
+}
+.cech-item {
+  background-color: #fff;
+  margin-top: 1rem;
+  width: 20rem;
+  height: 2.7rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.7rem;
+}
+.cech-item h3 {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-family: serif;
+}
+.todo-btn .bx-edit:hover {
+  color: #0fe60f;
+  transition: 0.2s linear;
+}
+.todo-btn .bx-trash:hover {
+  color: #ff0000;
+  transition: 0.2s linear;
+}
+
+.click-btn .btn {
+  margin: 2rem 0;
+  padding: 0.9rem 5rem;
+  border-radius: 0.3rem;
+}
